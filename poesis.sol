@@ -599,8 +599,8 @@ contract POESISToken is ERC20 {
     constructor(
         string memory name, string memory symbol
     ) public ERC20(name, symbol) {
-        // 30M Total $POESIS supply 
-        _mint(msg.sender, 50000000 * 10 ** _decimals);
+        // 40M Total $POESIS supply 
+        _mint(msg.sender, 40000000 * 10 ** _decimals);
     }
 
 }
